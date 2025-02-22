@@ -8,42 +8,10 @@ const navLinks = [
     name: "Home",
     link: "/"
   },
-  {
-    name: "Pages",
-    link: "#",
-    subMenu: [
-      { name: "About Us", link: "/aboutus" },
-      { name: "Teacher", link: "#" },
-      { name: "Event", link: "#" },
-      { name: "FAQs", link: "#" },
-      { name: "Contact Us", link: "#" }
-    ]
-  },
-  { name: "Contact Us", link: "contact-us.html" },
-  {
-    name: "Blog",
-    link: "#",
-    subMenu: [
-      { name: "Blog 1", link: "#" },
-      { name: "Blog 2", link: "#" }
-    ]
-  },
-  {
-    name: "Courses",
-    link: "#",
-    subMenu: [
-      { name: "Course ", link: "#" },
-      { name: "Course Detail", link: "#" }
-    ]
-  },
-  {
-    name: "Our Gallery",
-    link: "#",
-    subMenu: [
-      { name: "Gallery 1", link: "gallery-1.html" },
-      { name: "Gallery 2", link: "gallery-2.html" }
-    ]
-  }
+  { name: "About Us", link: "/about" },
+  { name: "Classroom", link: "/classroom" },
+  { name: "Contact Us", link: "/contact" },
+  { name: "Gallery", link: "#" },
 ];
 
 const Navbar = () => {

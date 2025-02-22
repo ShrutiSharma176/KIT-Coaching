@@ -6,6 +6,8 @@ import Navbar from './component/Navbar';
 import HomePage from './component/HomePage';
 import Notification from './component/Notification';
 import AboutPage from './component/AboutPage';
+import Contact from './component/Contact';
+import Classroom from './component/Classroom';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='/aboutus' element={<AboutPage/>}/>
+        <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/classroom' element={<Classroom/>}/>
       </Routes>
       <Footer/>
     </Router>

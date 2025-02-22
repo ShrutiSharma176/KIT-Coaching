@@ -1,0 +1,48 @@
+/* General text alignment */
+.text-justify {
+    text-align: justify;
+}
+
+/* Smooth transition effect */
+.transition-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08); /* Reduced shadow */
+}
+
+/* Card hover effect */
+.transition-effect:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon hover effect */
+.icon-effect {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icon-effect:hover {
+    transform: scale(1.1);
+    color: #007bff;
+}
+
+
+/* 
+.transition-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.transition-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); 
+}
+
+
+.icon-effect {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icon-effect:hover {
+    transform: scale(1.15);
+} */
